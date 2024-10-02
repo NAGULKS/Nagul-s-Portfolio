@@ -8,6 +8,7 @@ import Sun from "../../Assets/Projects/Sun.png";
 import Nagul from "../../Assets/Projects/Nagul.png";
 import Audi from "../../Assets/Projects/Audi.png";
 import Sentiment from "../../Assets/Projects/Sentiment.png";
+import Protfolio from "../../Assets/Projects/Protfolio.png";
 
 function Projects() {
   return (
@@ -40,6 +41,16 @@ function Projects() {
               description="Developed an Audio lone website using HTML, CSS, and Bootstrap, focusing on responsive design and seamless user experience without JavaScript."
               ghLink="https://github.com/NAGULKS/Audiclone.git"
               demoLink="https://nagulks.github.io/Audiclone/"
+            />
+          </Col>
+          <Col md={4} className="project-card">
+            <ProjectCard
+              imgPath={Protfolio}
+              isBlog={false}
+              title="Nagul's Protfolio"
+              description="Developed an Audio lone website using HTML, CSS, and Bootstrap, focusing on responsive design and seamless user experience without JavaScript."
+              ghLink="https://github.com/NAGULKS/Nagul-s-Protfolio.git"
+              demoLink="https://nagul-s-protfolio.vercel.app/"
             />
           </Col>
 

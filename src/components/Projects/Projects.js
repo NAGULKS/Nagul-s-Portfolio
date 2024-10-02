@@ -8,7 +8,7 @@ import Sun from "../../Assets/Projects/Sun.png";
 import Nagul from "../../Assets/Projects/Nagul.png";
 import Audi from "../../Assets/Projects/Audi.png";
 import Sentiment from "../../Assets/Projects/Sentiment.png";
-import Protfolio from "../../Assets/Projects/Protfolio.png";
+import Portfolio from "../../Assets/Projects/Protfolio.png";
 
 function Projects() {
   return (
@@ -45,10 +45,10 @@ function Projects() {
           </Col>
           <Col md={4} className="project-card">
             <ProjectCard
-              imgPath={Protfolio}
+              imgPath={Portfolio}
               isBlog={false}
-              title="Nagul's Protfolio"
-              description="Developed an Audio lone website using HTML, CSS, and Bootstrap, focusing on responsive design and seamless user experience without JavaScript."
+              title="Nagul's Portfolio"
+              description="Developed a personal portfolio website using React, showcasing projects, experience, and skills with an interactive and dynamic user interface."
               ghLink="https://github.com/NAGULKS/Nagul-s-Protfolio.git"
               demoLink="https://nagul-s-protfolio.vercel.app/"
             />

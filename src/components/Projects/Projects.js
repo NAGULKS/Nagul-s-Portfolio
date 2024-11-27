@@ -84,7 +84,7 @@ function Projects() {
               description="Developed and published a project in a Scopus-indexed journal, focusing on accurately detecting cotton bolls using advanced deep learning techniques, enhancing agricultural efficiency and productivity."
               ghLink="https://github.com/NAGULKS/Cottonboll_Researchproject.git"
               demoLink="https://ieeexplore.ieee.org/abstract/document/10405080/" 
-                customDemoName="View Paper"
+              customDemoName="View Paper"
 
             />
           </Col>

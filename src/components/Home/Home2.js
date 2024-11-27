@@ -3,7 +3,7 @@ import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.JPG";
 import Tilt from "react-parallax-tilt";
 import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn, FaWhatsapp } from "react-icons/fa";
+import { FaLinkedinIn} from "react-icons/fa";
 
 function Home2() {
   return (
@@ -89,16 +89,6 @@ function Home2() {
                   className="icon-colour home-social-icons"
                 >
                   <AiFillInstagram />
-                </a>
-              </li>
-              <li className="social-icons">
-                <a
-                  href="https://wa.me/8610874800"
-                  target="_blank"
-                  rel="noreferrer"
-                  className="icon-colour home-social-icons"
-                >
-                  <FaWhatsapp />
                 </a>
               </li>
             </ul>

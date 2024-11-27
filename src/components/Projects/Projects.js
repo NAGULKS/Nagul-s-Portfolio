@@ -61,7 +61,7 @@ function Projects() {
               title="Sun Traders"
               description="Built a Suntraders website using PHP, delivering a robust and dynamic platform with efficient backend functionality and a responsive design."
               ghLink="https://github.com/NAGULKS/Suntraders_Project.git"
-              demoLink="https://nagulks.github.io/Audiclone/"             
+              demoLink=""             
             />
           </Col>
 

@@ -2,8 +2,8 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import myImg from "../../Assets/avatar.JPG";
 import Tilt from "react-parallax-tilt";
-import { AiFillGithub, AiFillInstagram } from "react-icons/ai";
-import { FaLinkedinIn} from "react-icons/fa";
+import {AiFillGithub,AiFillInstagram,} from "react-icons/ai";
+import { FaLinkedinIn } from "react-icons/fa";
 
 function Home2() {
   return (
@@ -38,19 +38,9 @@ function Home2() {
               with <b className="purple">React.js</b>
             </p>
           </Col>
-          <Col md={4} className="myAvtar">
+          <Col md={4} className="myAvtar" >
             <Tilt>
-              <img
-                src={myImg}
-                className="img-fluid"
-                alt="avatar"
-                style={{
-                  height: "300px",
-                  width: "300px",
-                  borderRadius: "500px",
-                  marginTop: "-30px",
-                }}
-              />
+              <img src={myImg} className="img-fluid" alt="avatar" style={{height:"300px",width:"300px",borderRadius:"500px",marginTop:"-30px"}}/>
             </Tilt>
           </Col>
         </Row>

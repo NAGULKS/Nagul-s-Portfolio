@@ -81,6 +81,16 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
+                     <li className="social-icons">
+                <a
+                  href="https://www.instagram.com/invites/contact/?igsh=1097n9mbjjn7v&utm_content=lscgzwt"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour home-social-icons"
+                >
+                  <FaWhatsapp />
+                </a>
+              </li>
             </ul>
           </Col>
         </Row>

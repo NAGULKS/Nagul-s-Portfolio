@@ -20,7 +20,6 @@ function ProjectCards(props) {
         {"\n"}
         {"\n"}
 
-
         {!props.isBlog && props.demoLink && (
           <Button
             variant="primary"
@@ -29,11 +28,12 @@ function ProjectCards(props) {
             style={{ marginLeft: "10px" }}
           >
             <CgWebsite /> &nbsp;
-            {"Demo"}
+            {props.customDemoName || "Demo"}
           </Button>
         )}
       </Card.Body>
     </Card>
   );
 }
+
 export default ProjectCards;

@@ -66,9 +66,9 @@ const Resume = () => {
         <h2 style={{ borderBottom: "2px solid #007bff", paddingBottom: "10px" }}>Skill Set</h2>
         <ul style={{ listStyleType: "none", paddingLeft: 0 }}>
           <li style={{ marginBottom: "10px" }}>C, Java, Python, C++</li>
-          <li style={{ marginBottom: "10px" }}>MySQL</li>
+          <li style={{ marginBottom: "10px" }}>MySQL,PHP</li>
           <li style={{ marginBottom: "10px" }}>MATLAB</li>
-          <li style={{ marginBottom: "10px" }}>HTML, CSS, Bootstrap, JavaScript</li>
+          <li style={{ marginBottom: "10px" }}>HTML, CSS, Bootstrap, JavaScript,React Js</li>
           <li style={{ marginBottom: "10px" }}>Machine Learning</li>
           <li style={{ marginBottom: "10px" }}>IoT, ThingSpeak, AWS</li>
           <li style={{ marginBottom: "10px" }}>COOJA Simulation Tool</li>
@@ -143,7 +143,7 @@ const Resume = () => {
           <li style={{ marginBottom: "10px" }}>Participated in Coffee with Java by Samhita 22, a National Level Coding Competition</li>
           <li style={{ marginBottom: "10px" }}>Participated in Blind Coding by Renaissance’21, at KEC</li>
           <li style={{ marginBottom: "10px" }}>Intern as IoT Developer in Magnertia company (April 2023 to Dec 2023)</li>
-          <li style={{ marginBottom: "10px" }}>Published Paper in Scopus Journal, an IEEE conference</li>
+          <li style={{ marginBottom: "10px" }}>Published 2 Paper in Scopus Journal, an IEEE conference</li>
         </ul>
       </section>
     </Container>

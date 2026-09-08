@@ -10,7 +10,7 @@ import {
   SiEclipseide,
   SiPostman,
   SiMysql,
-  SiAmazonwebservices,
+  SiAmazonaws,
   SiThingspeak,
   SiMathworks,
   SiLinux,
@@ -55,7 +55,7 @@ function Toolstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiAmazonwebservices />
+        <SiAmazonaws />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">

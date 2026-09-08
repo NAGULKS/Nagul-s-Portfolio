@@ -212,9 +212,9 @@ const Resume = () => {
 
           <p style={{ lineHeight: "1.7" }}>
             Integrated IoT hardware with AWS and ThingSpeak for real-time cloud
-            monitoring. Worked on IoT solutions involving hardware, software,
-            and cloud integration. Supported real-time data monitoring through
-            cloud-connected IoT systems. Collaborated with the development team
+            monitoring.<br /> Worked on IoT solutions involving hardware, software,
+            and cloud integration.<br /> Supported real-time data monitoring through
+            cloud-connected IoT systems.<br /> Collaborated with the development team
             to improve IoT system connectivity and prototype development.
           </p>
         </div>

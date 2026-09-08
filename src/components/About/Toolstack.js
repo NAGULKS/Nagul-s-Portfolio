@@ -11,12 +11,11 @@ import {
   SiPostman,
   SiMysql,
   SiAmazonaws,
-  SiThingspeak,
   SiMathworks,
   SiLinux,
 } from "react-icons/si";
 
-import { FaPython } from "react-icons/fa";
+import { FaPython, FaMicrochip } from "react-icons/fa";
 
 function Toolstack() {
   return (
@@ -59,7 +58,7 @@ function Toolstack() {
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">
-        <SiThingspeak />
+        <FaMicrochip />
       </Col>
 
       <Col xs={4} md={2} className="tech-icons">

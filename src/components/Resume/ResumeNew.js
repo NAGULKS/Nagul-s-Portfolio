@@ -193,10 +193,10 @@ const Resume = () => {
           </p>
 
           <p style={{ lineHeight: "1.7" }}>
-            Developed responsive web applications for client-based projects.
+            Developed responsive web applications for client-based projects.<br />
             Implemented web application requirements using frontend and backend
-            technologies. Collaborated with the development team on application
-            development and project delivery. Supported application testing,
+            technologies.<br /> Collaborated with the development team on application
+            development and project delivery.<br /> Supported application testing,
             troubleshooting, and implementation activities.
           </p>
         </div>

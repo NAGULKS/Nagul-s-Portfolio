@@ -275,8 +275,7 @@ const Resume = () => {
           </h3>
 
           <p style={{ lineHeight: "1.7" }}>
-            2024 4th International Conference on Sustainable Expert Systems
-            (ICSES), IEEE Xplore, 2024.
+           IEEE Conference, 2023; indexed in IEEE Xplore in 2024. DOI: 10.1109/ICACRS58579.2023.10405080
           </p>
         </div>
 
@@ -287,7 +286,7 @@ const Resume = () => {
           </h3>
 
           <p style={{ lineHeight: "1.7" }}>
-            IEEE Conference, 2023; indexed in IEEE Xplore in 2024.
+            2024 4th International Conference on Sustainable Expert Systems (ICSES), IEEE Xplore, 2024. DOI: 10.1109/ICSES63445.2024.10763265
           </p>
         </div>
       </section>

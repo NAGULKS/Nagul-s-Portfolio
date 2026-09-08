@@ -2,7 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Container, Row } from "react-bootstrap";
 import Button from "react-bootstrap/Button";
 import Particle from "../Particle";
-import pdf from "../../Assets/NAGUL.pdf";
+import pdf from "../../Assets/Nagul.pdf";
 import { AiOutlineDownload } from "react-icons/ai";
 
 import "react-pdf/dist/esm/Page/AnnotationLayer.css";

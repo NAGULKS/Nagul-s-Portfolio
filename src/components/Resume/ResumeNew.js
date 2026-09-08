@@ -28,7 +28,10 @@ function ResumeNew() {
             variant="primary"
             href={pdf}
             target="_blank"
-            style={{ maxWidth: "250px", borderRadius: "20px" }}
+            style={{
+              maxWidth: "250px",
+              borderRadius: "20px",
+            }}
           >
             <AiOutlineDownload />
             &nbsp;Download CV
@@ -67,15 +70,30 @@ const Resume = () => {
           NAGUL K.S
         </h1>
 
-        <p style={{ fontSize: "1.2rem", margin: "10px 0" }}>
+        <p
+          style={{
+            fontSize: "1.2rem",
+            margin: "10px 0",
+          }}
+        >
           SOFTWARE ENGINEER | IoT ENGINEER
         </p>
 
-        <p style={{ fontSize: "1.1rem", margin: "10px 0" }}>
+        <p
+          style={{
+            fontSize: "1.1rem",
+            margin: "10px 0",
+          }}
+        >
           Salem, Tamil Nadu | +91 9843680094
         </p>
 
-        <p style={{ fontSize: "1.1rem", margin: "10px 0" }}>
+        <p
+          style={{
+            fontSize: "1.1rem",
+            margin: "10px 0",
+          }}
+        >
           <a
             href="mailto:technagul01@gmail.com"
             style={{
@@ -125,28 +143,33 @@ const Resume = () => {
           Education
         </h2>
 
-        <ul style={{ paddingLeft: "20px" }}>
-          <li style={{ marginBottom: "15px" }}>
-            <strong>B.E. Computer Science and Engineering</strong>
-            <br />
+        <div style={{ marginBottom: "20px" }}>
+          <h3 style={{ fontSize: "1.25rem" }}>
+            B.E. Computer Science and Engineering
+          </h3>
+          <p style={{ lineHeight: "1.6" }}>
             Kongu Engineering College, Perundurai | 2020 – 2024 | CGPA: 8.21
-          </li>
+          </p>
+        </div>
 
-          <li style={{ marginBottom: "15px" }}>
-            <strong>
-              AISSCE (Class XII) – Mathematics and Computer Science
-            </strong>
-            <br />
+        <div style={{ marginBottom: "20px" }}>
+          <h3 style={{ fontSize: "1.25rem" }}>
+            AISSCE (Class XII) – Mathematics and Computer Science
+          </h3>
+          <p style={{ lineHeight: "1.6" }}>
             Bharathiyar Hi-Tech International Senior Secondary School CBSE,
             Attur | 2020 | 71%
-          </li>
+          </p>
+        </div>
 
-          <li style={{ marginBottom: "15px" }}>
-            <strong>AISSE (Class X)</strong>
-            <br />
+        <div>
+          <h3 style={{ fontSize: "1.25rem" }}>
+            AISSE (Class X)
+          </h3>
+          <p style={{ lineHeight: "1.6" }}>
             Bharathiyar Hi-Tech International School CBSE, Attur | 2018 | 68%
-          </li>
-        </ul>
+          </p>
+        </div>
       </section>
 
       {/* Professional Experience */}
@@ -160,7 +183,7 @@ const Resume = () => {
           Professional Experience
         </h2>
 
-        <div style={{ marginBottom: "25px" }}>
+        <div style={{ marginBottom: "30px" }}>
           <h3 style={{ fontSize: "1.3rem" }}>
             Web Developer | Optimus Technocrates (India) Pvt. Ltd.
           </h3>
@@ -169,21 +192,13 @@ const Resume = () => {
             <strong>Apr 2025 – Sep 2025</strong>
           </p>
 
-          <ul>
-            <li>Developed responsive web applications for client-based projects.</li>
-            <li>
-              Implemented web application requirements using frontend and
-              backend technologies.
-            </li>
-            <li>
-              Collaborated with the development team on application development
-              and project delivery.
-            </li>
-            <li>
-              Supported application testing, troubleshooting, and implementation
-              activities.
-            </li>
-          </ul>
+          <p style={{ lineHeight: "1.7" }}>
+            Developed responsive web applications for client-based projects.
+            Implemented web application requirements using frontend and backend
+            technologies. Collaborated with the development team on application
+            development and project delivery. Supported application testing,
+            troubleshooting, and implementation activities.
+          </p>
         </div>
 
         <div>
@@ -195,24 +210,13 @@ const Resume = () => {
             <strong>Apr 2023 – Dec 2023</strong>
           </p>
 
-          <ul>
-            <li>
-              Integrated IoT hardware with AWS and ThingSpeak for real-time
-              cloud monitoring.
-            </li>
-            <li>
-              Worked on IoT solutions involving hardware, software, and cloud
-              integration.
-            </li>
-            <li>
-              Supported real-time data monitoring through cloud-connected IoT
-              systems.
-            </li>
-            <li>
-              Collaborated with the development team to improve IoT system
-              connectivity and prototype development.
-            </li>
-          </ul>
+          <p style={{ lineHeight: "1.7" }}>
+            Integrated IoT hardware with AWS and ThingSpeak for real-time cloud
+            monitoring. Worked on IoT solutions involving hardware, software,
+            and cloud integration. Supported real-time data monitoring through
+            cloud-connected IoT systems. Collaborated with the development team
+            to improve IoT system connectivity and prototype development.
+          </p>
         </div>
       </section>
 
@@ -227,33 +231,31 @@ const Resume = () => {
           Technical Skills
         </h2>
 
-        <ul>
-          <li style={{ marginBottom: "10px" }}>
-            <strong>Programming Languages:</strong> Java, Python, C, Embedded C
-          </li>
+        <p style={{ lineHeight: "1.8" }}>
+          <strong>Programming Languages:</strong> Java, Python, C, Embedded C
+        </p>
 
-          <li style={{ marginBottom: "10px" }}>
-            <strong>Web Development:</strong> HTML, CSS, Bootstrap, JavaScript,
-            React.js, PHP
-          </li>
+        <p style={{ lineHeight: "1.8" }}>
+          <strong>Web Development:</strong> HTML, CSS, Bootstrap, JavaScript,
+          React.js, PHP
+        </p>
 
-          <li style={{ marginBottom: "10px" }}>
-            <strong>Database:</strong> MySQL, Oracle
-          </li>
+        <p style={{ lineHeight: "1.8" }}>
+          <strong>Database:</strong> MySQL, Oracle
+        </p>
 
-          <li style={{ marginBottom: "10px" }}>
-            <strong>IoT and Cloud:</strong> AWS, ThingSpeak, IoT Hardware
-            Integration, Cloud Integration
-          </li>
+        <p style={{ lineHeight: "1.8" }}>
+          <strong>IoT and Cloud:</strong> AWS, ThingSpeak, IoT Hardware
+          Integration, Cloud Integration
+        </p>
 
-          <li style={{ marginBottom: "10px" }}>
-            <strong>AI and Machine Learning:</strong> Machine Learning, MATLAB
-          </li>
+        <p style={{ lineHeight: "1.8" }}>
+          <strong>AI and Machine Learning:</strong> Machine Learning, MATLAB
+        </p>
 
-          <li style={{ marginBottom: "10px" }}>
-            <strong>Tools and Operating Systems:</strong> Linux, COOJA
-          </li>
-        </ul>
+        <p style={{ lineHeight: "1.8" }}>
+          <strong>Tools and Operating Systems:</strong> Linux, COOJA
+        </p>
       </section>
 
       {/* Publications */}
@@ -267,23 +269,27 @@ const Resume = () => {
           Publications
         </h2>
 
-        <ul>
-          <li style={{ marginBottom: "15px" }}>
-            <strong>Cotton Boll Detection Using Deep Learning</strong>
-            <br />
+        <div style={{ marginBottom: "25px" }}>
+          <h3 style={{ fontSize: "1.2rem" }}>
+            Cotton Boll Detection Using Deep Learning
+          </h3>
+
+          <p style={{ lineHeight: "1.7" }}>
             2024 4th International Conference on Sustainable Expert Systems
             (ICSES), IEEE Xplore, 2024.
-          </li>
+          </p>
+        </div>
 
-          <li style={{ marginBottom: "15px" }}>
-            <strong>
-              Exploring the Impact of COVID-19 on Thailand’s Tourism Industry:
-              A Sentiment Analysis Approach Using Twitter Data
-            </strong>
-            <br />
+        <div>
+          <h3 style={{ fontSize: "1.2rem" }}>
+            Exploring the Impact of COVID-19 on Thailand’s Tourism Industry:
+            A Sentiment Analysis Approach Using Twitter Data
+          </h3>
+
+          <p style={{ lineHeight: "1.7" }}>
             IEEE Conference, 2023; indexed in IEEE Xplore in 2024.
-          </li>
-        </ul>
+          </p>
+        </div>
       </section>
 
       {/* Leadership and Activities */}
@@ -297,24 +303,22 @@ const Resume = () => {
           Leadership and Activities
         </h2>
 
-        <ul>
-          <li style={{ marginBottom: "10px" }}>
-            Joint Secretary, CSE Association | 2023 – 2024
-          </li>
+        <p style={{ lineHeight: "1.8" }}>
+          Joint Secretary, CSE Association | 2023 – 2024
+        </p>
 
-          <li style={{ marginBottom: "10px" }}>
-            Software Coordinator, TBI@KEC | 2022 – 2023
-          </li>
+        <p style={{ lineHeight: "1.8" }}>
+          Software Coordinator, TBI@KEC | 2022 – 2023
+        </p>
 
-          <li style={{ marginBottom: "10px" }}>
-            Presented papers on IoT and Cybersecurity at national-level
-            symposiums.
-          </li>
+        <p style={{ lineHeight: "1.8" }}>
+          Presented papers on IoT and Cybersecurity at national-level
+          symposiums.
+        </p>
 
-          <li style={{ marginBottom: "10px" }}>
-            Volunteer, NSS | 2022 – 2023
-          </li>
-        </ul>
+        <p style={{ lineHeight: "1.8" }}>
+          Volunteer, NSS | 2022 – 2023
+        </p>
       </section>
 
       {/* Projects */}
@@ -328,39 +332,51 @@ const Resume = () => {
           Projects
         </h2>
 
-        <ul>
-          <li style={{ marginBottom: "15px" }}>
-            <strong>
-              Cotton Boll Recognition for Robotic Harvesting Using CNN U-Net
-            </strong>
-            <br />
+        <div style={{ marginBottom: "25px" }}>
+          <h3 style={{ fontSize: "1.2rem" }}>
+            Cotton Boll Recognition for Robotic Harvesting Using CNN U-Net
+          </h3>
+
+          <p style={{ lineHeight: "1.7" }}>
             Developed a deep learning model using CNN and U-Net to detect and
             classify cotton bolls for agricultural automation and robotic
             harvesting.
-          </li>
+          </p>
+        </div>
 
-          <li style={{ marginBottom: "15px" }}>
-            <strong>Thailand Tourism Sentiment Analysis</strong>
-            <br />
+        <div style={{ marginBottom: "25px" }}>
+          <h3 style={{ fontSize: "1.2rem" }}>
+            Thailand Tourism Sentiment Analysis
+          </h3>
+
+          <p style={{ lineHeight: "1.7" }}>
             Conducted sentiment analysis on Twitter data to evaluate public
             perception and tourism recovery trends following the COVID-19
             pandemic.
-          </li>
+          </p>
+        </div>
 
-          <li style={{ marginBottom: "15px" }}>
-            <strong>Sree Senthoor Tiles & Ceramics</strong>
-            <br />
+        <div style={{ marginBottom: "25px" }}>
+          <h3 style={{ fontSize: "1.2rem" }}>
+            Sree Senthoor Tiles & Ceramics
+          </h3>
+
+          <p style={{ lineHeight: "1.7" }}>
             Designed and developed a PHP-based platform for product management
             and customer handling.
-          </li>
+          </p>
+        </div>
 
-          <li style={{ marginBottom: "15px" }}>
-            <strong>Single Portal for Land Survey</strong>
-            <br />
+        <div>
+          <h3 style={{ fontSize: "1.2rem" }}>
+            Single Portal for Land Survey
+          </h3>
+
+          <p style={{ lineHeight: "1.7" }}>
             Proposed a centralized digital solution for land record management
             as part of Ideathon 2022 at Kongu Engineering College.
-          </li>
-        </ul>
+          </p>
+        </div>
       </section>
     </Container>
   );
